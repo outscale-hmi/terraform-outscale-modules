@@ -4,19 +4,19 @@ Ce dépôt contient plusieurs modules Terraform pour la gestion des ressources d
 
 ## Modules disponibles
 
-1. **[Outscale Keypair](./outscale-keypair/)**
+1. **[Outscale Keypair](./outscale-keypair-module/)**
    Ce module permet de générer une paire de clés SSH (clé privée et clé publique), de sauvegarder la clé privée localement, et de créer un **keypair SSH** dans **Outscale**.
 
-2. **[Outscale Public IP](./outscale-public-ip/)**
+2. **[Outscale Public IP](./outscale-public-ip-module/)**
    Ce module permet de créer une adresse IP publique dans **Outscale** et de l'associer à une machine virtuelle (VM).
 
-3. **[Outscale Subnet](./outscale-subnet/)**
+3. **[Outscale Subnet](./outscale-subnet-module/)**
    Ce module permet de créer un réseau (VPC) et un sous-réseau (Subnet) dans **Outscale**, avec la possibilité de définir les plages d'adresses IP et la région.
 
-4. **[Outscale Route](./outscale-route/)**
+4. **[Outscale Route](./outscale-route-module/)**
    Ce module permet de créer une table de routage, de l'associer à un sous-réseau et d'ajouter une route par défaut vers un service Internet dans **Outscale**.
 
-5. **[Outscale VM](./outscale-vm/)**
+5. **[Outscale VM](./outscale-vm-module/)**
    Ce module permet de créer et de configurer une machine virtuelle (VM) dans **Outscale**, avec les options de personnalisation des ressources.
 
 ## Comment utiliser les modules
