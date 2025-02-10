@@ -29,7 +29,7 @@ Voici un exemple d'utilisation d'un module dans Terraform :
 
 ```hcl
 module "outscale_public_ip" {
-  source         = "./outscale-public-ip"  # Remplacer par le chemin du module
+  source         = "./path/to/outscale-public-ip-module"  # Remplacer par le chemin du module
   vm_id          = "vm-12345"              # ID de la machine virtuelle
   public_ip_type = "STATIC"                # Type d'adresse IP
 }
